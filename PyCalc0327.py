@@ -542,7 +542,6 @@ def choose_small_op():
         condi = False
         print('Goodbye!')
 
-
 condi = True
 while condi:
     main_result = choose_op()
