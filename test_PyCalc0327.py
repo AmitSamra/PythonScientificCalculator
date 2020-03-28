@@ -3,21 +3,22 @@ import PyCalc0327
 
 class TestCalc(unittest.TestCase):
 
+	calc = Calculator()
+
 	def test_PyCalc0327(self):
-		self.assertEqual(Calculator.add(2,3),5)
+		self.assertEqual(calc.add(2,3),5)
 
 	def test_PyCalc0327_(self):
-		self.assertEqual(Calculator.subtract(5,3),2)
+		self.assertEqual(calc.subtract(5,3),2)
 
 	def test_PyCalc0327_multiply(self):
-		self.assertEqual(Calculator.multiply(2,5),10)
+		self.assertEqual(calc.multiply(2,5),10)
 
 	def test_PyCalc0327_divide(self):
-		self.assertEqual(Calculator.divide(10,2),5)
+		self.assertEqual(calc.divide(10,2),5)
 
 	def test_PyCalc0327(self):
-		self.assertEqual(Calculator.square(2,4),16)
-
+		self.assertEqual(calc.square(2,4),16)
 
 
 
